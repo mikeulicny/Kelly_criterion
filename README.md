@@ -1,4 +1,5 @@
 #Kelly Criterion Game
+
 This game allows a user to make bets on a weighted coin.
 The coin lands on heads 60% of the time.
 The user starts with $25.
