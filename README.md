@@ -3,9 +3,12 @@
 A simple command line game to demonstrate the kelly criterion.
 
 ### Playing the game
-change directory into the repository
-`cd /kelly_criterion/`
-Then call `python kelly_criterion.py` in your command line
+change directory into the repository.
+
+`$ cd /kelly_criterion/`
+
+Then call `$ python kelly_criterion.py` in your command line.
+
 This game allows a user to make bets on a weighted coin.
 The coin lands on heads 60% of the time.
 The user starts with $25.
