@@ -64,6 +64,8 @@ def startGame():
             # loss
             else:
                 player.balance -= player.bet_size 
+                if player.bet_size > player.balance:
+                    player.bet(player.balance)
 
         # clear account size and bet size lines
         for iter in range(0,line_count):
